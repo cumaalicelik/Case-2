@@ -1,0 +1,17 @@
+-15184, 15769 (also no match in location dimtable), 16193 SPIDs are cleaned from the data due to lack of value in power query
+- I have divided Date into two parts one is date the other is time.
+- I created Date and Time tables as dimensions
+- Used DAX to create time range to see when there is density ( also new table with sorting 1,2,3 to sort them correctly )
+
+***Findings in power bi report in viz
+-Peak Hour for collecting bins
+-Density distribution for Time Ranges
+-Avg Fullness of Plastic and Paper bins
+-Plastic and Paper Bins Collaction comparison rate
+-Total Overflowed bins
+-Avg Bins Per Visit
+-Total Collected Bins according to the months (tendline)
+-Total Visits
+-*Peak Hour* of the waste collection
+-Top 5 SPID that have most overflowed bins
+-map viz for total collected bins by bubble sizes
